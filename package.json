@@ -1,0 +1,41 @@
+{
+  "name": "easy-ejs-compiler",
+  "version": "0.1.0",
+  "description": "Easily generate html files from EJS templates.",
+  "main": "index.js",
+  "bin": {
+    "easy-ejs-compiler": "bin/cmd.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jyokyoku/easy-ejs-compiler.git"
+  },
+  "keywords": [
+    "ejs",
+    "html",
+    "npm",
+    "scripts",
+    "cli"
+  ],
+  "author": "jyokyoku <jyokyoku@gmail.com> (https://devlog.to)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jyokyoku/easy-ejs-compiler/issues"
+  },
+  "homepage": "https://github.com/jyokyoku/easy-ejs-compiler#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "glob": "^7.1.6",
+    "mkdirp": "^1.0.3"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "rimraf": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
