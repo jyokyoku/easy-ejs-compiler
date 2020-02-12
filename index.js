@@ -10,14 +10,7 @@ const parseJson = (json) => {
 	} catch (e) {
 	}
 
-	try {
-		json = JSON.parse(json)
-	} catch (e) {
-		console.error(e.code + ': ' + e.message);
-		json = {};
-	}
-
-	return json;
+	return json ? JSON.parse(json) : {};
 };
 
 module.exports = (inputDir, outputDir = undefined, options = {}) => {
